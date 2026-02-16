@@ -47,31 +47,33 @@ Check it out live: https://react-signup-login-jhangir.netlify.app
 reactthapaapp/
 │
 ├─ public/
-│ ├─ images/ # any images you use
-│ ├─ vite.svg
+│   ├─ images/             # any images you use
+│   └─ vite.svg
 │
 ├─ src/
-│ ├─ api/ # optional API calls if needed
-│ ├─ assets/ # static assets
-│ ├─ components/
-│ │ ├─ hooks/ # custom hooks
-│ │ ├─ projects/
-│ │ │ ├─ RegistrationForm/
-│ │ │ │ ├─ LoginForm.jsx
-│ │ │ │ ├─ RegistrationForm.jsx
-│ │ │ │ └─ TermsAndPrivacy.jsx
-│ │ ├─ todo/
-│ │ │ ├─ Todo.jsx
-│ │ │ ├─ TodoForm.jsx
-│ │ │ ├─ TodoList.jsx
-│ │ │ ├─ TodoDateTime.jsx
-│ │ │ ├─ TodoFooter.jsx
-│ │ │ ├─ TodoLocalStorage.jsx
-│ │ │ └─ Todo.css
-│ │ └─ ToggleSwitch/ # your toggle switch component
-│ │
-│ ├─ App.jsx
-│ └─ main.jsx
+│   ├─ api/                # optional API calls if needed
+│   ├─ assets/             # static assets like icons, logos
+│   ├─ components/
+│   │   ├─ projects/
+│   │   │   └─ RegistrationForm/
+│   │   │       ├─ RegistrationForm.jsx
+│   │   │       ├─ LoginForm.jsx
+│   │   │       └─ TermsAndPrivacy.jsx
+│   │   │
+│   │   ├─ todo/
+│   │   │   ├─ Todo.jsx
+│   │   │   ├─ TodoForm.jsx
+│   │   │   ├─ TodoList.jsx
+│   │   │   ├─ TodoDateTime.jsx
+│   │   │   ├─ TodoFooter.jsx
+│   │   │   ├─ TodoLocalStorage.jsx
+│   │   │   └─ Todo.css
+│   │   │
+│   │   └─ ToggleSwitch/
+│   │       └─ ToggleSwitch.jsx
+│   │
+│   ├─ App.jsx
+│   └─ main.jsx
 │
 ├─ package.json
 ├─ vite.config.js
